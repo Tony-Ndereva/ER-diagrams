@@ -1,9 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T10:54:14.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="_24ajOE0nBajAe1iuxBt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T11:02:28.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BhAT-_L8foyhCcm5pJHg" version="21.3.8" type="github">
   <diagram name="Page-1" id="kTs1BXnxle4srhBuTnBa">
-    <mxGraphModel>
+    <mxGraphModel dx="1357" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-1" value="passenger" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-2" value="Name&amp;nbsp;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="b4NQY05Y5RJPFfe3UuMa-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-3" value="flight" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-4" value="Number&lt;br&gt;DepartureDateTime&lt;br&gt;ArrivalDateTime&lt;br&gt;Duration&lt;br&gt;Distance" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="b4NQY05Y5RJPFfe3UuMa-3">
+          <mxGeometry y="50" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=0.989;entryY=0.36;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="b4NQY05Y5RJPFfe3UuMa-4" target="b4NQY05Y5RJPFfe3UuMa-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="90" y="330" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4NQY05Y5RJPFfe3UuMa-9" value="Books" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b4NQY05Y5RJPFfe3UuMa-8">
+          <mxGeometry x="0.006" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
